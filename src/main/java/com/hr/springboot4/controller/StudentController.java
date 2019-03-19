@@ -15,6 +15,7 @@ public class StudentController {
 
     @RequestMapping("/findAll")
     public ModelAndView findAll(){
+        //呃呃呃呃呃
         ModelAndView modelAndView = new ModelAndView("index");
         modelAndView.addObject("stuList",studentService.findAll());
         return modelAndView;
